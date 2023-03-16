@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head.html -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Чтобы на IOS номер телефона не изменял свой стиль -->
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230223170741">
+    <link rel="shortcut icon" href="img/icons/3.ico">
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        
+<section class="navigation">
+    <button class="navigation-burger">
+        <span></span>
+    </button>
+    <button class="navigation-slide__button nav-slide">
+        <p class="nav-slide__text">Листай дальше</p>
+        <div class="nav-slide__arrow">
+            <svg class="sprite-icon__slide_arrow nav-slide__arrow-icon">
+                <use href="img/icons/icons.svg#slide_arrow"></use>
+            </svg>
+        </div>
+    </button>
+</section>
+
+        
+        <!-- header.html -->
+        <!-- !!! БАЗОВЫЙ HEADER С БУРГЕРОМ -->
+
+<header class="header">
+    <div class="header__container">
+        <div class="header__block">
+            <a href="" class="header__block-logo header-logo">
+                <p class="header-logo__main"><span>aero</span>union</p>
+                <p class="header-logo__additional">Официальный диллер в РФ</p>
+            </a>
+            
+            <div class="header__block-menu menu">
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link current-link">Модели</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Обзор вертолетов</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">О компании</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Преимущества</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Калькулятор</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__block-interactive header-inter">
+                <div class="header-inter__language">
+                    <button class="language-selector__english lang_selector">ENG</button>
+                    <span>|</span>
+                    <button class="language-selector__russian lang_selector current-lang">RUS</button>
+                </div>
+                <a href="#" class="header-inter__bucket">
+                    <svg class="sprite-icon__bucket header-inter__bucket-icon">
+                        <use href="img/icons/icons.svg#bucket"></use>
+                    </svg>
+                </a>
+                <!-- Предположу, что это будет попап с формой поиска, поэтому будет ссылкой -->
+                <a href="#" class="header-inter__search">
+                    <svg class="sprite-icon__search header-inter__search-icon">
+                        <use href="img/icons/icons.svg#search"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+        <main class="main">
+            <section class="main__models">
+    <div class="models__container">
+        <div class="models__block">
+            <div class="models__block-swiper">
+
+                <div class="swiper-models__cnt swiper">
+                    <div class="swiper-models__wrapper swiper-wrapper">
+                        <div class="swiper-models__slide swiper-slide">
+                            <div class="slide-part__left">
+                                <div class="slide__model">
+                                    <h2 class="slide__model-name">Robinson R44</h2>
+                                    <button class="slide__model-bucket">
+                                        <svg class="sprite-icon__bucket slide__model-bucket-icon">
+                                            <use href="img/icons/icons.svg#bucket"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="slide__model-img">
+                                    <picture><source srcset="img/main/models/R44.webp" type="image/webp"><img src="img/main/models/R44.png" alt="R44"></picture>
+                                </div>
+                            </div>
+                            <div class="slide-part__right">
+                                <div class="slide__characteristics">
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_speedometer">
+                                                <use href="img/icons/icons.svg#models_speedometer"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">240 км/ч</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_passangers">
+                                                <use href="img/icons/icons.svg#models_passangers"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">3 + 1 пасс</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_distance">
+                                                <use href="img/icons/icons.svg#models_distance"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">650 км</p>
+                                    </div>
+                                    <a href="#" class="slide__characteristics-more">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-models__slide swiper-slide">
+                            <div class="slide-part__left">
+                                <div class="slide__model">
+                                    <h2 class="slide__model-name">Robinson R66</h2>
+                                    <button class="slide__model-bucket">
+                                        <svg class="sprite-icon__bucket slide__model-bucket-icon">
+                                            <use href="img/icons/icons.svg#bucket"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="slide__model-img">
+                                    <picture><source srcset="img/main/models/R66.webp" type="image/webp"><img src="img/main/models/R66.png" alt="R66"></picture>
+                                </div>
+                            </div>
+                            <div class="slide-part__right">
+                                <div class="slide__characteristics">
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_speedometer">
+                                                <use href="img/icons/icons.svg#models_speedometer"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">240 км/ч</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_passangers">
+                                                <use href="img/icons/icons.svg#models_passangers"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">3 + 1 пасс</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_distance">
+                                                <use href="img/icons/icons.svg#models_distance"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">602 км</p>
+                                    </div>
+                                    <a href="#" class="slide__characteristics-more">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-models__slide swiper-slide">
+                            <div class="slide-part__left">
+                                <div class="slide__model">
+                                    <h2 class="slide__model-name">Robinson R66</h2>
+                                    <button class="slide__model-bucket">
+                                        <svg class="sprite-icon__bucket slide__model-bucket-icon">
+                                            <use href="img/icons/icons.svg#bucket"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="slide__model-img">
+                                    <picture><source srcset="img/main/models/R66.webp" type="image/webp"><img src="img/main/models/R66.png" alt="R66"></picture>
+                                </div>
+                            </div>
+                            <div class="slide-part__right">
+                                <div class="slide__characteristics">
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_speedometer">
+                                                <use href="img/icons/icons.svg#models_speedometer"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">240 км/ч</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_passangers">
+                                                <use href="img/icons/icons.svg#models_passangers"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">3 + 1 пасс</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_distance">
+                                                <use href="img/icons/icons.svg#models_distance"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">602 км</p>
+                                    </div>
+                                    <a href="#" class="slide__characteristics-more">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-models__slide swiper-slide">
+                            <div class="slide-part__left">
+                                <div class="slide__model">
+                                    <h2 class="slide__model-name">Robinson R66</h2>
+                                    <button class="slide__model-bucket">
+                                        <svg class="sprite-icon__bucket slide__model-bucket-icon">
+                                            <use href="img/icons/icons.svg#bucket"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="slide__model-img">
+                                    <picture><source srcset="img/main/models/R66.webp" type="image/webp"><img src="img/main/models/R66.png" alt="R66"></picture>
+                                </div>
+                            </div>
+                            <div class="slide-part__right">
+                                <div class="slide__characteristics">
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_speedometer">
+                                                <use href="img/icons/icons.svg#models_speedometer"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">240 км/ч</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_passangers">
+                                                <use href="img/icons/icons.svg#models_passangers"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">3 + 1 пасс</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_distance">
+                                                <use href="img/icons/icons.svg#models_distance"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">602 км</p>
+                                    </div>
+                                    <a href="#" class="slide__characteristics-more">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-models__slide swiper-slide">
+                            <div class="slide-part__left">
+                                <div class="slide__model">
+                                    <h2 class="slide__model-name">Robinson R66</h2>
+                                    <button class="slide__model-bucket">
+                                        <svg class="sprite-icon__bucket slide__model-bucket-icon">
+                                            <use href="img/icons/icons.svg#bucket"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="slide__model-img">
+                                    <picture><source srcset="img/main/models/R66.webp" type="image/webp"><img src="img/main/models/R66.png" alt="R66"></picture>
+                                </div>
+                            </div>
+                            <div class="slide-part__right">
+                                <div class="slide__characteristics">
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_speedometer">
+                                                <use href="img/icons/icons.svg#models_speedometer"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">240 км/ч</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_passangers">
+                                                <use href="img/icons/icons.svg#models_passangers"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">3 + 1 пасс</p>
+                                    </div>
+                                    <div class="slide__characteristic">
+                                        <div class="slide__characteristic-icon">
+                                            <svg class="sprite-icon__models_distance">
+                                                <use href="img/icons/icons.svg#models_distance"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="slide__characteristic-info">602 км</p>
+                                    </div>
+                                    <a href="#" class="slide__characteristics-more">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-models__navigation-arrow swiper-models__prev">
+                    <svg class="sprite-icon__swiper_arrow">
+                        <use href="img/icons/icons.svg#swiper_arrow"></use>
+                    </svg>
+                </div>
+                <div class="swiper-models__navigation-arrow swiper-models__next">
+                    <svg class="sprite-icon__swiper_arrow">
+                        <use href="img/icons/icons.svg#swiper_arrow"></use>
+                    </svg>
+                </div>
+                <div class="swiper-models__navigation-pagination swiper-pagination-vertical"></div>
+            </div>
+
+            <div class="models__block-callback models-callback">
+                <h1 class="models-callback__title">
+                    Много информации - не знаете<br>
+                    <span>Что лучше выбрать?</span>
+                </h1>
+                <p class="models-callback__subtitle">Оставьте заявку, мы перезвоним вам и ответим на все ваши вопросы</p>
+                <div class="models-callback__buttons">
+                    <a href="#" class="models-callback__button dry-button__common dry-button__white">Оставить заявку</a>
+                    <a href="#" class="models-callback__button dry-button__common dry-button__transparent">Все модели</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="models__background-img">
+        <picture><source srcset="img/main/models/background.webp" type="image/webp"><img src="img/main/models/background.jpg" alt="Background helicopter"></picture>
+    </div>
+</section>
+        </main>
+
+    </div>
+    <script src="js/app.min.js?_v=20230223170741"></script>
+</body>
+
+</html>
